@@ -1,0 +1,42 @@
+/* Intro sectio */
+/* #intro {
+
+}
+.abso-lute {
+position: absolute;
+z-index: 1;
+}
+
+
+.bck-img {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+} */
+
+.background-image-front {
+  background-image: url(images\chris-lawton-c0rIh0nFTFU-unsplash.jpg);
+  background-color: #fff;
+}
+
+body {
+  background-color: #fff;
+  text-align: center;
+}
+
+/* middle section */
+#middle {
+
+  /* background-color: #fff; */
+}
+
+.paragraph{
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+.mount{
+  width: 50%;
+  float: left;
+
+}
