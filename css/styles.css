@@ -1,33 +1,29 @@
 /* Intro sectio */
-/* #intro {
-
-}
-.abso-lute {
-position: absolute;
-z-index: 1;
-}
-
-
-.bck-img {
-  position: absolute;
-  width: 100%;
-  z-index: -1;
-} */
-
-.background-image-front {
-  background-image: url(https://unsplash.com/photos/c0rIh0nFTFU);
-  background-color: #fff;
+#intro, .holding-relative-box {
+  background-image: url(https://images.unsplash.com/photo-1540317700647-ec69694d70d0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+  background-repeat: no-repeat;
+  background-attachment: local;
+  background-size: 100%;
 }
 
-body {
-  background-color: #fff;
-  text-align: center;
+/* second section */
+h2 {
+  margin: 20px;
+}
+#secondsection {
+  background-color: teal;
+  padding: 10% 20%;
 }
 
 /* middle section */
 #middle {
+  text-align: center;
+  background-color: #fff;
+}
 
-  /* background-color: #fff; */
+/* Images */
+.Like-image {
+  width: 100%;
 }
 
 .paragraph{
@@ -39,4 +35,20 @@ body {
   width: 50%;
   float: left;
 
+}
+
+/* footer section */
+
+#footer, .bottom-section {
+  background-color: #fff;
+  color: gray;
+  text-align: center;
+}
+
+.social-icon {
+  padding: 2% 2% 2% 2%;
+}
+
+.Copyright {
+  padding: 3% 3% 3% 3%;
 }
